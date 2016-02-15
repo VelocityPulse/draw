@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_make_vector.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/21 19:36:29 by                   #+#    #+#             */
-/*   Updated: 2016/01/22 23:37:39 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:19:18 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:19:41 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 t_vector	ft_make_vector(float x, float y, float z)
 {

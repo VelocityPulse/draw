@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_find_color_gradient.c                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/02/07 15:55:48 by                   #+#    #+#             */
-/*   Updated: 2016/02/12 23:53:34 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:16:04 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:16:06 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 t_rgb	ft_find_color_gradient(t_dual_color c, int n, int p)
 {

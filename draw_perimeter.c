@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_perimeter.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/24 19:58:56 by                   #+#    #+#             */
-/*   Updated: 2016/01/25 18:01:22 by cchameyr         ###   ########.fr       */
+/*   Created: 2016/02/15 12:20:12 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:20:16 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_draw_perimeter(t_pt *l, int size, t_mlx *mlx, int color)
 {

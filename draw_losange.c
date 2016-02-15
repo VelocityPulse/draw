@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/08 17:06:53 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/01/22 23:54:12 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:17:45 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:17:54 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_draw_losange(t_area l, t_mlx *mlx, int color)
 {

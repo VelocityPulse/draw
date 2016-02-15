@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_isocele.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/12 14:06:21 by                   #+#    #+#             */
-/*   Updated: 2016/01/22 23:54:33 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:17:24 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:17:28 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_draw_isocele(t_area t, t_mlx *mlx, int color)
 {

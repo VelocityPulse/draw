@@ -6,11 +6,11 @@
 /*   By:  <>                                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/23 11:54:40 by                   #+#    #+#             */
-/*   Updated: 2016/02/02 11:39:43 by cchameyr         ###   ########.fr       */
+/*   Updated: 2016/02/15 12:15:17 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 t_pt	ft_apply_matrix(t_pt3d pt, t_matrix t)
 {

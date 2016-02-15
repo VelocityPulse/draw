@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_reset_image.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/13 22:46:59 by                   #+#    #+#             */
-/*   Updated: 2016/01/24 20:23:52 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:20:49 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:20:53 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_reset_image(t_mlx *mlx, int color)
 {

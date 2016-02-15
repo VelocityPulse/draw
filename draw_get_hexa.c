@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/02/06 16:12:09 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/02/07 13:05:44 by                  ###   ########.fr       */
+/*   Created: 2016/02/15 12:16:30 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:16:35 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 int		ft_get_hexa_rgb(int r, int g, int b)
 {

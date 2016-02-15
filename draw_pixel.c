@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw_pixel.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  <>                                        +#+  +:+       +#+        */
+/*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/04 17:30:22 by                   #+#    #+#             */
-/*   Updated: 2016/02/04 16:51:41 by cchameyr         ###   ########.fr       */
+/*   Created: 2016/02/15 12:20:22 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/02/15 12:20:27 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_draw_pixel(t_mlx *mlx, int color, t_pt pt)
 {

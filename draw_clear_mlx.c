@@ -6,11 +6,11 @@
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/02/03 12:31:57 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/02/03 12:48:48 by cchameyr         ###   ########.fr       */
+/*   Updated: 2016/02/15 12:15:39 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/draw.h"
+#include "draw.h"
 
 void	ft_clear_mlx(t_mlx *mlx)
 {
