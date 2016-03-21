@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/02/15 12:30:29 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/02/16 13:58:40 by                  ###   ########.fr       */
+/*   Created: 2016/03/21 12:17:17 by cchameyr          #+#    #+#             */
+/*   Updated: 2016/03/21 12:18:08 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _DRAW_STRUCTS_H
 # define _DRAW_STRUCTS_H
 
-# include "../headers/libft.h"
+# include "libft.h"
 
 typedef struct	s_area
 {
