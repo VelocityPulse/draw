@@ -6,14 +6,14 @@
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/03 12:10:37 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/06/13 11:05:25 by cchameyr         ###   ########.fr       */
+/*   Updated: 2016/06/13 11:13:05 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _DRAW_STRUCTS_H
 # define _DRAW_STRUCTS_H
 
-#include "../haeders/libft.h"
+#include "../headers/libft.h"
 
 typedef struct	s_rgb
 {
