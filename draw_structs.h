@@ -6,30 +6,14 @@
 /*   By: cchameyr <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/03 12:10:37 by cchameyr          #+#    #+#             */
-/*   Updated: 2016/05/03 12:10:38 by cchameyr         ###   ########.fr       */
+/*   Updated: 2016/06/13 11:05:25 by cchameyr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef _DRAW_STRUCTS_H
 # define _DRAW_STRUCTS_H
 
-# include "../headers/libft.h"
-
-typedef struct	s_area
-{
-	t_pt		a;
-	t_pt		b;
-	t_pt		c;
-	t_pt		d;
-}				t_area;
-
-typedef struct	s_line
-{
-	t_pt		start;
-	t_pt		end;
-	int			dx;
-	int			dy;
-}				t_line;
+#include "../haeders/libft.h"
 
 typedef struct	s_rgb
 {
@@ -66,27 +50,5 @@ typedef struct	s_matrix_rot
 	t_matrix	mz;
 	t_matrix	m;
 }				t_matrix_rot;
-
-typedef struct	s_img
-{
-	int			loaded;
-	char		*data;
-	void		*p_img;
-	t_pt		size;
-	int			width;
-	int			bpp;
-	long int	octet;
-	int			endian;
-	int			max_size;
-}				t_img;
-
-typedef struct	s_mlx
-{
-	void		*p_mlx;
-	void		*p_win;
-	int			height;
-	int			width;
-	t_img		*mlx_img;
-}				t_mlx;
 
 #endif
